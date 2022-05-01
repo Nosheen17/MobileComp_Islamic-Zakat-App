@@ -1,5 +1,5 @@
-package com.firstapp.islamicapp;
 
+package com.example.islamiczakatapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId())
         {
             case R.id.Zakwat:
-                startActivity(new Intent(MainActivity.this, ZakwatPage.class));
+                startActivity(new Intent(MainActivity.this, ZakatPage.class));
                 break;
             case R.id.Fitrana:
                 startActivity(new Intent(MainActivity.this, activity_Fitrana.class));
