@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/_651298784717"
-    tools:context=".ZakwatPage">
+    tools:context=".ZakatPage">
 
     <EditText
         android:id="@+id/Input"
